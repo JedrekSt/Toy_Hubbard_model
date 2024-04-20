@@ -19,9 +19,8 @@ class operators:
         return np.dot(A,B)+np.dot(B,A)
 
 class Hamiltonian:
-    N=4
-    def __init__(self):
-        self.c=[operators.generate(self.N,i) for i in range(1,(self.N)+1)]
+    def __init__(self,N):
+        self.c=[operators.generate(N,i) for i in range(1,(N)+1)]
         self.cup=[self.c[item] for item in range(0,len(self.c)) if item%2==0]
         self.cdw=[self.c[item] for item in range(0,len(self.c)) if item%2!=0]
         self.sc=[{
@@ -35,6 +34,16 @@ class Hamiltonian:
             'y' : sum(el['y'] for el in self.sc),
             'z' : sum(el['z'] for el in self.sc)
         }
+    
+    def particle_num(self):
+        return sum(np.dot(el['cr'],el['an']) for el in self.c)
+    def squared_s(self):
+        return (np.dot(self.S['x'],self.S['x'])+np.dot(self.S['y'],self.S['y'])+np.dot(self.S['z'],self.S['z']))
+    def conjunction(self):
+        return (np.dot(self.sc[0]['x'],self.sc[1]['x'])+np.dot(self.sc[0]['y'],self.sc[1]['y'])+np.dot(self.sc[0]['z'],self.sc[1]['z']))
+    def spin_z(self):
+        return self.S['z']
+
 
     #definicja Hamiltonianu
     def generate_H(self,eps1,eps2,U,t,B,J):
@@ -45,20 +54,5 @@ class Hamiltonian:
         H_hop=t*(np.dot(self.c[0]['cr'],self.c[2]['an'])+np.dot(self.c[1]['cr'],self.c[3]['an']))
         H_hop+=np.transpose(np.conj(H_hop))
         H_spin=self.S['x']*B[0]+self.S['y']*B[1]+self.S['z']*B[2]
-        H_ferro=-J*(np.dot(self.S['x'],self.S['x'])+np.dot(self.S['y'],self.S['y'])+np.dot(self.S['z'],self.S['z']))
+        H_ferro=-J*(np.dot(self.sc[0]['x'],self.sc[1]['x'])+np.dot(self.sc[0]['y'],self.sc[1]['y'])+np.dot(self.sc[0]['z'],self.sc[1]['z']))
         return H_kinetic1+H_kinetic2+H_int1+H_int2+H_hop+H_spin+H_ferro
-
-
-
-
-
-
-        
-
-    
-
-
-
-
-
-
