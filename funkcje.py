@@ -36,6 +36,7 @@ class Hamiltonian:
             'z' : sum(el['z'] for el in self.sc)
         }
 
+    #definicja Hamiltonianu
     def generate_H(self,eps1,eps2,U,t,B,J):
         H_kinetic1=eps1*sum(np.dot(self.c[i]['cr'],self.c[i]['an']) for i in range(0,2))
         H_kinetic2=eps2*sum(np.dot(self.c[i]['cr'],self.c[i]['an']) for i in range(2,len(self.c)))
@@ -47,15 +48,7 @@ class Hamiltonian:
         H_ferro=-J*(np.dot(self.S['x'],self.S['x'])+np.dot(self.S['y'],self.S['y'])+np.dot(self.S['z'],self.S['z']))
         return H_kinetic1+H_kinetic2+H_int1+H_int2+H_hop+H_spin+H_ferro
 
-Ham=Hamiltonian()
-eps1=1
-eps2=2
-U=1
-t=0.1
-B=[0,0,0.01]
-J=0
-H0=Ham.generate_H(eps1,eps2,U,t,B,J)
-print(H0)
+
 
 
 
