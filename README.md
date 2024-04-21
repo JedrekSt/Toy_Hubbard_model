@@ -61,7 +61,7 @@ Przy $`t=0`$ granice fazowe są bardzo wyraźne. Na wykresie prezentującym śre
 
 Fragment diagramu, w którym obie energie cząstek znajdują się pomiędzy energią Fermiego, a energią oddziaływania $`U`$ odpowiada pojedynczym obsadzeniom dwóch poziomów. Obie cząstki posiadają spin zgodny z kierunkiem pola magnetycznego, co jest wyraźnie widoczne jako region o wartości  $`\langle S_{z}\rangle =1`$. Dla kolejne pojedyncze wzbudzenia obserwowane są przy przekroczeniu granicy sprzężenia na poszczególnych poziomach. Spin na jendym z poziomów znoszony jest w tym miejscu przez kolejne wzbudzenie, w związku z czym ponownie obserwuje się region z $`\langle S_{z}\rangle =1/2`$. Dla przypadku $`\varepsilon_{1},\varepsilon_{2}>U`$ oba poziomy zostają obsadzone cząstkami o przeciwnym spinie i $`\langle S_{z}\rangle =0`$.
 
-Z powyższego opisu wynika także, że oddziaływanie spinów obydwu cząstek zachodzi wyłącznie w przypadku gdy na dwóch poziomach znajdują się cząstki o spinie skierowanym zgodnie z polem magnetycznym. Na diagramie $`\vec{S}_{1}\cdot\vec{S}_{2}`$ sytuacja ta jest widoczna w obszarze $`0 \< \varepsilon_{1},\varepsilon_{2} \< U`$.
+Z powyższego opisu wynika także, że oddziaływanie spinów obydwu cząstek zachodzi wyłącznie w przypadku gdy na dwóch poziomach znajdują się cząstki o spinie skierowanym zgodnie z polem magnetycznym. Na diagramie $`\vec{S}_{1}\cdot\vec{S}_{2}`$ sytuacja ta jest widoczna w obszarze $`0 \lt \varepsilon_{1},\varepsilon_{2} \lt U`$.
 
 #### Diagram dla $`T=0.01, U=1, t=0.1, J=0`$
 <p align="center">
