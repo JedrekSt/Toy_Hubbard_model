@@ -19,5 +19,6 @@ H=\sum_{\sigma=\uparrow,\downarrow}(\varepsilon_{1}c^{\dagger}_{1\sigma}c_{1\sig
 c^{\dagger}_{n\downarrow}c_{n\uparrow}+c^{\dagger}_{n\uparrow}c_{n\downarrow}\\
 -ic^{\dagger}_{n\downarrow}c_{n\uparrow}+ic^{\dagger}_{n\uparrow}c_{n\downarrow}\\
 c^{\dagger}_{n\downarrow}c_{n\downarrow}+c^{\dagger}_{n\uparrow}c_{n\uparrow} \\
+\end{array}
 \right)
 ```
