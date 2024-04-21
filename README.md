@@ -137,15 +137,15 @@ Podsumowując powyższe stwierdzenia, możemy okreslić stan podstawowy układu:
 
 |$`\varepsilon_{1}/U`$|$`\varepsilon_{2}/U`$|$`\|GS\rangle`$|
 |---|---|---|
-|$`\lt 0 `$|$`\lt 0`$|$`\|0_{\uparrow},0_{\downarrow},0_{\uparrow},0_{\downarrow}\rangle`$| 
-|$`0\lt,\lt 1`$|$`\lt 0`$|$`\|1_{\uparrow},0_{\downarrow},0_{\uparrow},0_{\downarrow}\rangle`$|
-|$`\lt 0`$|$`0\lt,\lt 1`$|$`\|0_{\uparrow},0_{\downarrow},1_{\uparrow},0_{\downarrow}\rangle`$|
-|$`0\lt,\lt 1 `$|$`0\lt,\lt 1`$|$`\|1_{\uparrow},0_{\downarrow},1_{\uparrow},0_{\downarrow}\rangle`$|
-|$`\gt 1`$|$`\lt 0`$|$`\|1_{\uparrow},1_{\downarrow},0_{\uparrow},0_{\downarrow}\rangle`$|
-|$`\lt 0`$|$`\gt 1`$|$`\|0_{\uparrow},0_{\downarrow},1_{\uparrow},1_{\downarrow}\rangle`$|
-|$`\gt 1 `$|$`0\lt,\lt 1`$|$`\|1_{\uparrow},1_{\downarrow},1_{\uparrow},0_{\downarrow}\rangle`$|
-|$`0\lt,\lt 1 `$|$`\gt 1`$|$`\|1_{\uparrow},0_{\downarrow},1_{\uparrow},1_{\downarrow}\rangle`$|
-|$`\gt 1 `$|$`\gt 1`$|$`\|1_{\uparrow},1_{\downarrow},1_{\uparrow},1_{\downarrow}\rangle`$|
+|$`\varepsilon_{1}/U\lt 0 `$|$`\varepsilon_{2}/U\lt 0`$|$`\|0_{\uparrow},0_{\downarrow},0_{\uparrow},0_{\downarrow}\rangle`$| 
+|$`0\lt \varepsilon_{1}/U\lt 1`$|$`\varepsilon_{2}/U\lt 0`$|$`\|1_{\uparrow},0_{\downarrow},0_{\uparrow},0_{\downarrow}\rangle`$|
+|$`\varepsilon_{1}/U\lt 0`$|$`0\lt\varepsilon_{2}/U\lt 1`$|$`\|0_{\uparrow},0_{\downarrow},1_{\uparrow},0_{\downarrow}\rangle`$|
+|$`0\lt \varepsilon_{1}/U\lt 1 `$|$`0\lt\varepsilon_{2}/U\lt 1`$|$`\|1_{\uparrow},0_{\downarrow},1_{\uparrow},0_{\downarrow}\rangle`$|
+|$`\varepsilon_{1}/U\gt 1`$|$`\varepsilon_{2}/U\lt 0`$|$`\|1_{\uparrow},1_{\downarrow},0_{\uparrow},0_{\downarrow}\rangle`$|
+|$`\varepsilon_{1}/U\lt 0`$|$`\varepsilon_{2}/U\gt 1`$|$`\|0_{\uparrow},0_{\downarrow},1_{\uparrow},1_{\downarrow}\rangle`$|
+|$`\varepsilon_{1}/U\gt 1 `$|$`0\lt\varepsilon_{2}/U\lt 1`$|$`\|1_{\uparrow},1_{\downarrow},1_{\uparrow},0_{\downarrow}\rangle`$|
+|$`0\lt\varepsilon_{1}/U\lt 1 `$|$`\varepsilon_{2}/U\gt 1`$|$`\|1_{\uparrow},0_{\downarrow},1_{\uparrow},1_{\downarrow}\rangle`$|
+|$`\varepsilon_{1}/U\gt 1 `$|$`\varepsilon_{2}/U\gt 1`$|$`\|1_{\uparrow},1_{\downarrow},1_{\uparrow},1_{\downarrow}\rangle`$|
 
 
 #### Diagram dla $`T=0.01, U=1, t=0.1, J=0`$
