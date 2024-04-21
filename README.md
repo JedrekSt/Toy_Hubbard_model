@@ -1,10 +1,7 @@
-# Grupa renormalizacji w modelu andersona
+# Analiza dwucząstkowego modelu Hubbarda
 
-## Hamiltonian modelu andersona
-
-Hamiltonian dla modelu Andersona w bazie pędowej można zapisac jako:
+Hamiltonian rozważanego układu można zapisać jako:
 
 ```math
-H=\sum_{k\sigma}\varepsilon_{k}c^{\dagger}_{k\sigma}c_{k\sigma}+
-U\sum_{k}c^{\dagger}_{k\uparrow}c_{k\uparrow}c^{\dagger}_{k\downarrow}c_{k\downarrow}
+H=\sum_{\sigma}\epsilon_{1}c^{\dagger}_{1\sigma}c_{1\sigma}
 ```
