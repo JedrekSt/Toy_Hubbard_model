@@ -40,6 +40,7 @@ Stan całkowicie obsadzony zdefiniowany jest przez:
 Używając standardowych relacji antykomutacji dla operatorów kreacji i anihilacji otrzymujemy:
 ```math
 [n,H_{k}]=[\sum_{n\sigma}c^{\dagger}_{n\sigma}c_{n\sigma},\sum_{n'\sigma'}\varepsilon_{n'}c^{\dagger}_{n'\sigma'}c_{n'\sigma'}]=\sum_{n\sigma}\sum_{n'\sigma'}\varepsilon_{n'}(c^{\dagger}_{n\sigma}c_{n\sigma}c^{\dagger}_{n'\sigma'}c_{n'\sigma'}-c^{\dagger}_{n'\sigma'}c_{n'\sigma'}c^{\dagger}_{n\sigma}c_{n\sigma})
+\sum_{n\sigma}\sum_{n'\sigma'}\varepsilon_{n'}(-c^{\dagger}_{n\sigma}c^{\dagger}_{n'\sigma'}c_{n\sigma}c_{n'\sigma'}+c^{\dagger}_{n'\sigma'}c^{\dagger}_{n\sigma}c_{n'\sigma'}c_{n\sigma}+c^{\dagger}_{n\sigma}c_{n'\sigma'}\delta_{nn'}\delta_{\sigma\sigma'}c^{\dagger}_{n'\sigma'}c_{n\sigma}\delta_{nn'}\delta_{\sigma\sigma'})
 ```
 
 
