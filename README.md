@@ -134,8 +134,8 @@ Z powyższego opisu wynika także, że oddziaływanie spinów obydwu cząstek za
 
 Podsumowując powyższe stwierdzenia, możemy okreslić stan podstawowy układu:
 
-<p align="center">
 
+|:--:|:--:|:--:|
 |$`\varepsilon_{1}/U`$|$`\varepsilon_{2}/U`$|$`\|GS\rangle`$|
 |---|---|---|
 |$`\lt 0 `$|$`\lt 0`$|$`\|0_{\uparrow},0_{\downarrow},0_{\uparrow},0_{\downarrow}\rangle`$| 
@@ -147,7 +147,7 @@ Podsumowując powyższe stwierdzenia, możemy okreslić stan podstawowy układu:
 |$`\gt 1 `$|$`0\lt,\lt 1`$|$`\|1_{\uparrow},1_{\downarrow},1_{\uparrow},0_{\downarrow}\rangle`$|
 |$`0\lt,\lt 1 `$|$`\gt 1`$|$`\|1_{\uparrow},0_{\downarrow},1_{\uparrow},1_{\downarrow}\rangle`$|
 |$`\gt 1 `$|$`\gt 1`$|$`\|1_{\uparrow},1_{\downarrow},1_{\uparrow},1_{\downarrow}\rangle`$|
-</p>
+
 
 #### Diagram dla $`T=0.01, U=1, t=0.1, J=0`$
 <p align="center">
