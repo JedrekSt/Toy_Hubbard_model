@@ -52,4 +52,7 @@ Energie $`\varepsilon_{1},\varepsilon_{2}`$ mierzone są względem poziomu Fermi
 
 ### Diagram dla T=0.01, U=1, t=0.1, J=0
 
-![Tekst](https://github.com/JedrekSt/RenormalizacjaWModeluAndersona/blob/main/WykresyWygenerowane.png?raw=true)
+<p align="center">
+  <img src="https://github.com/JedrekSt/RenormalizacjaWModeluAndersona/blob/main/WykresyWygenerowane.png?raw=true" />
+</p>
+
