@@ -18,8 +18,8 @@ H=\sum_{\sigma=\uparrow,\downarrow}(\varepsilon_{1}c^{\dagger}_{1\sigma}c_{1\sig
 \vec{S}_{n}=
 \frac{\hbar}{2}\left(\begin{array}{c}
 c^{\dagger}_{n\downarrow}c_{n\uparrow}+c^{\dagger}_{n\uparrow}c_{n\downarrow}\\
--ic^{\dagger}_{n\downarrow}c_{n\uparrow}+ic^{\dagger}_{n\uparrow}c_{n\downarrow}\\
-c^{\dagger}_{n\downarrow}c_{n\downarrow}+c^{\dagger}_{n\uparrow}c_{n\uparrow} \\
+ic^{\dagger}_{n\downarrow}c_{n\uparrow}-ic^{\dagger}_{n\uparrow}c_{n\downarrow}\\
+c^{\dagger}_{n\uparrow}c_{n\uparrow}-c^{\dagger}_{n\downarrow}c_{n\downarrow} \\
 \end{array}
 \right)
 ```
@@ -37,13 +37,15 @@ Stan całkowicie obsadzony zdefiniowany jest przez:
 | 1_{\uparrow},1_{\downarrow},1_{\uparrow},1_{\downarrow}\rangle=c_{1\uparrow}^{\dagger}c_{1\downarrow}^{\dagger}c_{2\uparrow}^{\dagger}c_{2\downarrow}^{\dagger}|0_{\uparrow},0_{\downarrow},0_{\uparrow},0_{\downarrow}\rangle
 ```
 ## Symetrie Hamiltonianu
-Używając standardowych relacji antykomutacji dla operatorów kreacji i anihilacji otrzymujemy:
 
+W celu znalezienia symetrii Hamiltonianu obliczamy następujące komutatory:
 ```math
-[n,H_{k}]=[\sum_{n\sigma}c^{\dagger}_{n\sigma}c_{n\sigma},\sum_{n'\sigma'}\varepsilon_{n'}c^{\dagger}_{n'\sigma'}c_{n'\sigma'}]=\sum_{n\sigma}\sum_{n'\sigma'}\varepsilon_{n'}(c^{\dagger}_{n\sigma}c_{n\sigma}c^{\dagger}_{n'\sigma'}c_{n'\sigma'}-c^{\dagger}_{n'\sigma'}c_{n'\sigma'}c^{\dagger}_{n\sigma}c_{n\sigma})=
+[n,n_{n'\sigma'}]=
+\sum_{\sigma,n}(c^{\dagger}_{n\sigma}c_{n\sigma}c^{\dagger}_{n'\sigma'}c_{n'\sigma'}-c^{\dagger}_{n'\sigma'}c_{n'\sigma'}c^{\dagger}_{n\sigma}c_{n\sigma})=
 ```
 ```math
-=\sum_{n\sigma}\sum_{n'\sigma'}\varepsilon_{n'}(-c^{\dagger}_{n\sigma}c^{\dagger}_{n'\sigma'}c_{n\sigma}c_{n'\sigma'}+c^{\dagger}_{n'\sigma'}c^{\dagger}_{n\sigma}c_{n'\sigma'}c_{n\sigma}+c^{\dagger}_{n\sigma}c_{n'\sigma'}\delta_{nn'}\delta_{\sigma\sigma'}-c^{\dagger}_{n'\sigma'}c_{n\sigma}\delta_{nn'}\delta_{\sigma\sigma'})=0
+=\sum_{\sigma,n}(-c^{\dagger}_{n\sigma}c^{\dagger}_{n'\sigma'}c_{n\sigma}c_{n'\sigma'}+c^{\dagger}_{n\sigma}\delta_{nn'}\delta_{\sigma\sigma'}c_{n'\sigma'}+c^{\dagger}_{n'\sigma'}c^{\dagger}_{n\sigma}c_{n'\sigma'}c_{n\sigma}-
+c^{\dagger}_{n'\sigma'}\delta_{nn'}\delta_{\sigma\sigma'}c_{n\sigma})=0
 ```
 
 
