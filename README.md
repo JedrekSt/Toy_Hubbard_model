@@ -54,9 +54,17 @@ c_{n\sigma}^{\dagger}c_{n+1,\sigma}c_{n'\sigma'}^{\dagger}c_{n'\sigma'})=
 ```math
 =\sum_{\sigma',n'}
 (-c_{n'\sigma'}^{\dagger}c_{n\sigma}^{\dagger}c_{n'\sigma'}c_{n+1,\sigma}+c_{n'\sigma'}^{\dagger}\delta_{nn'}\delta_{\sigma\sigma'}c_{n+1,\sigma}
-c_{n\sigma}^{\dagger}c_{n'\sigma'}^{\dagger}c_{n+1,\sigma}c_{n'\sigma'}-c_{n\sigma}^{\dagger}\delta_{n+1,n'}\delta_{\sigma\sigma'}c_{n'\sigma'})
++c_{n\sigma}^{\dagger}c_{n'\sigma'}^{\dagger}c_{n+1,\sigma}c_{n'\sigma'}-c_{n\sigma}^{\dagger}\delta_{n+1,n'}\delta_{\sigma\sigma'}c_{n'\sigma'})=0
 ```
-
+```math
+[n,c^{\dagger}_{n\uparrow}c_{n\downarrow}]=\sum_{\sigma' n'}(c^{\dagger}_{n'\sigma'}c_{n'\sigma'}c^{\dagger}_{n\uparrow}c_{n\downarrow}-
+c^{\dagger}_{n\uparrow}c_{n\downarrow}c^{\dagger}_{n'\sigma'}c_{n'\sigma'})=
+```
+```math
+\sum_{\sigma' n'}(-c^{\dagger}_{n'\sigma'}c^{\dagger}_{n\uparrow}c_{n'\sigma'}c_{n\downarrow}+c^{\dagger}_{n'\sigma'}\delat_{\sigma'\uparrow}\delta_{nn'}c_{n\downarrow}+
+c^{\dagger}_{n\uparrow}c^{\dagger}_{n'\sigma'}c_{n\downarrow}c_{n'\sigma'}-
+c^{\dagger}_{n\uparrow}\delta_{nn'}\delta_{\sigma\downarrow}c_{n'\sigma'})
+```
 
 ## Diagramy fazowe dla wartości średnich obserwabli
 
