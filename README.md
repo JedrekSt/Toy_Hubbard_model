@@ -139,6 +139,12 @@ Podsumowując powyższe stwierdzenia, otrzymujemy stan podstawowy układu:
 |C|D|
 
 
+| ε₁/U | ε₂/U | 〈GS〉 |
+| --- | --- | --- |
+| < 0 | < 0 | A |
+
+
+
 |$`\varepsilon_{1}/U`$|$`\varepsilon_{2}/U`$|$`|GS\rangle`$|
 |---|---|---|
 |$`\lt 0 `$|$`\lt 0`$|A| 
