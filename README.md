@@ -43,8 +43,9 @@ Używając standardowych relacji antykomutacji dla operatorów kreacji i anihila
 [n,H_{k}]=[\sum_{n\sigma}c^{\dagger}_{n\sigma}c_{n\sigma},\sum_{n'\sigma'}\varepsilon_{n'}c^{\dagger}_{n'\sigma'}c_{n'\sigma'}]=\sum_{n\sigma}\sum_{n'\sigma'}\varepsilon_{n'}(c^{\dagger}_{n\sigma}c_{n\sigma}c^{\dagger}_{n'\sigma'}c_{n'\sigma'}-c^{\dagger}_{n'\sigma'}c_{n'\sigma'}c^{\dagger}_{n\sigma}c_{n\sigma})=
 ```
 ```math
-=\sum_{n\sigma}\sum_{n'\sigma'}\varepsilon_{n'}(-c^{\dagger}_{n\sigma}c^{\dagger}_{n'\sigma'}c_{n\sigma}c_{n'\sigma'}+c^{\dagger}_{n'\sigma'}c^{\dagger}_{n\sigma}c_{n'\sigma'}c_{n\sigma}+c^{\dagger}_{n\sigma}c_{n'\sigma'}\delta_{nn'}\delta_{\sigma\sigma'}c^{\dagger}_{n'\sigma'}c_{n\sigma}\delta_{nn'}\delta_{\sigma\sigma'})
+=\sum_{n\sigma}\sum_{n'\sigma'}\varepsilon_{n'}(-c^{\dagger}_{n\sigma}c^{\dagger}_{n'\sigma'}c_{n\sigma}c_{n'\sigma'}+c^{\dagger}_{n'\sigma'}c^{\dagger}_{n\sigma}c_{n'\sigma'}c_{n\sigma}+c^{\dagger}_{n\sigma}c_{n'\sigma'}\delta_{nn'}\delta_{\sigma\sigma'}-c^{\dagger}_{n'\sigma'}c_{n\sigma}\delta_{nn'}\delta_{\sigma\sigma'})=0
 ```
+
 
 
 ## Diagramy fazowe dla wartości średnich obserwabli
