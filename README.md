@@ -1,5 +1,6 @@
 # Analiza dwupozimowego modelu Hubbarda
 
+## Hamiltonian modelu
 Hamiltonian rozważanego układu można zapisać jako:
 
 ```math
@@ -22,3 +23,4 @@ c^{\dagger}_{n\downarrow}c_{n\downarrow}+c^{\dagger}_{n\uparrow}c_{n\uparrow} \\
 \end{array}
 \right)
 ```
+- $`-J\vec{S}_{1}\cdot\vec{S}_{2}`$ jest energią oddziaływania spinów na dwóch poziomach
