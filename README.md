@@ -76,9 +76,28 @@ Otrzymujemy stąd:
 ```math
 [n,H_{t}]=t\sum_{n,\sigma}([n,c_{n\sigma}^{\dagger}c_{n+1,\sigma}]+[c_{n+1,\sigma}^{\dagger}c_{n\sigma}])=0
 ```
+oraz
 ```math
-[n,S_{x}]=\sum_{n}([n,c_{n\uparrow}^{\dagger}c_{n\downarrow}]+[n,c_{n\downarrow}^{\dagger}c_{n\uparrow}])
+[n,S_{x}]=\sum_{n}([n,c_{n\uparrow}^{\dagger}c_{n\downarrow}]+[n,c_{n\downarrow}^{\dagger}c_{n\uparrow}])=0
 ```
+```math
+[n,S_{y}]=\sum_{n}(-i[n,c_{n\uparrow}^{\dagger}c_{n\downarrow}]+i[n,c_{n\downarrow}^{\dagger}c_{n\uparrow}])=0
+```
+```math
+[n,S_{z}]=\sum_{n}([n,c_{n\uparrow}^{\dagger}c_{n\uparrow}]+[n,c_{n\downarrow}^{\dagger}c_{n\downarrow}])=0
+```
+skąd
+```math
+[n,H_{S}]=0
+```
+```math
+[n,H_{12}]=0
+```
+Dlatego:
+```math
+[n,H]=0
+```
+operatory $`H`$ oraz $`n`$ mają wspólną bazę własną, dlatego liczba cząstek jest dobrą liczbą kwantową dla tego układu. Podobnie można pokazać, że o ile $`J=0`$, to także z-towa składowa cłąkowitego spinu jest także dobrą liczbą kwantową.  
 
 ## Diagramy fazowe dla wartości średnich obserwabli
 
@@ -91,7 +110,7 @@ $`Z`$ jest sumą statystyczną:
 Z=Tr[\exp(-\beta H)]
 ```
 Mając dany stan układu w postaci operatora gęsotści można obliczyć wartość oczekiwaną dowolnej obserwabli przez:
-```Math
+```math
 \langle A\rangle=Tr(A\rho)
 ```
 
