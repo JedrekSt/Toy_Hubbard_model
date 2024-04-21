@@ -8,7 +8,7 @@ Ham=Hamiltonian(4)
 
 #definiiowanie parametrów układu
 U,t,B,J=1,0.1,[0,0,0.1],0
-Tem=0.01
+Tem=1e-2
 eps1=np.arange(-1.5,1.5,0.025)
 eps2=np.arange(-1.5,1.5,0.025)
 

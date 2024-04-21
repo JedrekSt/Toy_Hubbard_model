@@ -53,6 +53,6 @@ class Hamiltonian:
         H_int2=U*(np.dot(np.dot(np.dot(self.c[2]['cr'],self.c[2]['an']),self.c[3]['cr']),self.c[3]['an']))
         H_hop=t*(np.dot(self.c[0]['cr'],self.c[2]['an'])+np.dot(self.c[1]['cr'],self.c[3]['an']))
         H_hop+=np.transpose(np.conj(H_hop))
-        H_spin=self.S['x']*B[0]+self.S['y']*B[1]+self.S['z']*B[2]
+        H_spin=-(self.S['x']*B[0]+self.S['y']*B[1]+self.S['z']*B[2])
         H_ferro=-J*(np.dot(self.sc[0]['x'],self.sc[1]['x'])+np.dot(self.sc[0]['y'],self.sc[1]['y'])+np.dot(self.sc[0]['z'],self.sc[1]['z']))
         return H_kinetic1+H_kinetic2+H_int1+H_int2+H_hop+H_spin+H_ferro
