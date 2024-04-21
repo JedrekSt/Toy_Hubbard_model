@@ -27,7 +27,7 @@ c^{\dagger}_{n\downarrow}c_{n\downarrow}+c^{\dagger}_{n\uparrow}c_{n\uparrow} \\
 
 Powyższe fermionowe operatory kreacji i anihilacji spełniają regularne reguły antykomutacji:
 ```math
-\{ c_{n\sigma}^{\dagger},c_{n',\sigma'}^{\dagger} \}=\{ c_{n\sigma,c_{n',\sigma'} \}=0
+\{ c_{n\sigma}^{\dagger},c_{n',\sigma'}^{\dagger} \}=\{ c_{n\sigma},c_{n',\sigma'} \}=0
 ```
 ```math
 \{ c_{n\sigma},c_{n',\sigma'}^{\dagger} \}=\delta_{nn'}\delta_{kk'}
