@@ -61,9 +61,23 @@ c_{n\sigma}^{\dagger}c_{n+1,\sigma}c_{n'\sigma'}^{\dagger}c_{n'\sigma'})=
 c^{\dagger}_{n\uparrow}c_{n\downarrow}c^{\dagger}_{n'\sigma'}c_{n'\sigma'})=
 ```
 ```math
-\sum_{\sigma' n'}(-c^{\dagger}_{n'\sigma'}c^{\dagger}_{n\uparrow}c_{n'\sigma'}c_{n\downarrow}+c^{\dagger}_{n'\sigma'}\delat_{\sigma'\uparrow}\delta_{nn'}c_{n\downarrow}+
+\sum_{\sigma' n'}(-c^{\dagger}_{n'\sigma'}c^{\dagger}_{n\uparrow}c_{n'\sigma'}c_{n\downarrow}+c^{\dagger}_{n'\sigma'}\delta_{\sigma'\uparrow}\delta_{nn'}c_{n\downarrow}+
 c^{\dagger}_{n\uparrow}c^{\dagger}_{n'\sigma'}c_{n\downarrow}c_{n'\sigma'}-
-c^{\dagger}_{n\uparrow}\delta_{nn'}\delta_{\sigma\downarrow}c_{n'\sigma'})
+c^{\dagger}_{n\uparrow}\delta_{nn'}\delta_{\sigma\downarrow}c_{n'\sigma'})=0
+```
+
+Otrzymujemy stąd:
+```math
+[n,H_{k}]=\sum_{\sigma,n}[n_{n\sigma },n]=0
+```
+```math
+[n,H_{U}]=U\sum_{n}[n,n_{n\uparrow}n_{n\downarrow}]=U\sum_{n}(nn_{n\uparrow}n_{n\downarrow}-n_{n\uparrow}n_{n\downarrow}n)=0
+```
+```math
+[n,H_{t}]=t\sum_{n,\sigma}([n,c_{n\sigma}^{\dagger}c_{n+1,\sigma}]+[c_{n+1,\sigma}^{\dagger}c_{n\sigma}])=0
+```
+```math
+[n,S_{x}]=\sum_{n}([n,c_{n\uparrow}^{\dagger}c_{n\downarrow}]+[n,c_{n\downarrow}^{\dagger}c_{n\uparrow}])
 ```
 
 ## Diagramy fazowe dla wartości średnich obserwabli
@@ -76,6 +90,11 @@ $`Z`$ jest sumą statystyczną:
 ```math
 Z=Tr[\exp(-\beta H)]
 ```
+Mając dany stan układu w postaci operatora gęsotści można obliczyć wartość oczekiwaną dowolnej obserwabli przez:
+```Math
+\langle A\rangle=Tr(A\rho)
+```
+
 
 Energie $`\varepsilon_{1},\varepsilon_{2}`$ mierzone są względem poziomu Fermiego. Manipulując tymi wartościami przy zadanych wartościach temperatury,pola oraz parametrów oddziaływań $`U,t,J`$ można otrzymać Hamiltonian dla różnych energii cząstek co przekłada się na zdolność do wzbudzeń.   Poniżej przedstawiono diagramy fazowe przedstawiajace wartości oczekiwane liczby cząstek $`n=\sum_{n,\sigma}c^{\dagger}_{n\sigma}c_{n\sigma}`$, kwadratu spinu $`\vec{S}^{2}`$, z-towej składowej spinu układu $`S_{z}`$ oraz sprzężenia $`\vec{S}_{1}\cdot\vec{S}_{2}`$.
 
