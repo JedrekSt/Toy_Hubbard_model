@@ -11,5 +11,5 @@ H=\sum_{\sigma=\uparrow,\downarrow}(\varepsilon_{1}c^{\dagger}_{1\sigma}c_{1\sig
 - $`t(\sum_{\sigma=\uparrow,\downarrow}c^{\dagger}_{1\sigma}c_{2\sigma}+h.c.)`$ jest energią związaną z przeskokami cząstek pomiędzy poziomami bez zmiany spinu
 - $`-\vec{S}\cdot\vec{B}`$ jest energią oddziaływania spinów z polem magnetycznym. Operator spinu zdefiniowany jest jako:
 ```math
-\vec{S}=\sum_{n=1,2}\vec{S}_{n} 
+\vec{S}=\sum_{n=1,2}\vec{S}_{n} \hspace{2cm} \vec{S}_{n}=\frac{\hbar}{2}\Big( c^{\dagger}_{n\downarrow}c_{n\upparow}+c^{\dagger}_{n\uparrow}c_{n\downparow} \Big)
 ```
