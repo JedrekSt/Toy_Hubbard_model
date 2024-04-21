@@ -139,9 +139,9 @@ Podsumowując powyższe stwierdzenia, otrzymujemy stan podstawowy układu:
 |C|D|
 
 
-| $`\varepsilon_{1}/U`$ | $`\varepsilon_{2}/U`$ | $`|GS\rangle`$ |
-| --- | --- | --- |
-| $`\lt 0 `$ | $`\lt 0`$ |  | 
+|$`\varepsilon_{1}/U`$|$`\varepsilon_{2}/U`$|$`|GS\rangle`$|
+|---|---|---|
+|$`\lt 0 `$|$`\lt 0`$|A| 
 
 
 #### Diagram dla $`T=0.01, U=1, t=0.1, J=0`$
