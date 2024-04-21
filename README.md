@@ -1,4 +1,4 @@
-# Analiza dwupozimowego modelu Hubbarda
+# Analiza dwupoziomowego modelu Hubbarda
 
 ## Hamiltonian modelu
 Hamiltonian rozważanego układu można zapisać jako:
@@ -7,10 +7,10 @@ Hamiltonian rozważanego układu można zapisać jako:
 H=\sum_{\sigma=\uparrow,\downarrow}(\varepsilon_{1}c^{\dagger}_{1\sigma}c_{1\sigma}+\varepsilon_{2}c^{\dagger}_{2\sigma}c_{2\sigma})+U\sum_{n=1,2}c_{n\uparrow}^{\dagger}c_{n\uparrow}c_{n\downarrow}^{\dagger}c_{n\downarrow}+t(\sum_{\sigma=\uparrow,\downarrow}c^{\dagger}_{1\sigma}c_{2\sigma}+h.c.)-\vec{S}\cdot\vec{B}-J\vec{S}_{1}\cdot\vec{S}_{2}.
 ```
 
-- $`\sum_{\sigma=\uparrow,\downarrow}(\varepsilon_{1}c^{\dagger}_{1\sigma}c_{1\sigma}+\varepsilon_{2}c^{\dagger}_{2\sigma}c_{2\sigma})`$ reprezentuje energię kinetyczną na obydwu poziomach sumowaną po dwóch możliwych stanach spinowych
-- $`U\sum_{n=1,2}c_{n\uparrow}^{\dagger}c_{n\uparrow}c_{n\downarrow}^{\dagger}c_{n\downarrow}`$ jest energią oddziaływania cząstek o przeciwnym spinie na tym samym poziomie
-- $`t(\sum_{\sigma=\uparrow,\downarrow}c^{\dagger}_{1\sigma}c_{2\sigma}+h.c.)`$ jest energią związaną z przeskokami cząstek pomiędzy poziomami bez zmiany spinu
-- $`-\vec{S}\cdot\vec{B}`$ jest energią oddziaływania spinów z polem magnetycznym. Operator spinu zdefiniowany jest jako:
+- $`H_{k}=\sum_{\sigma=\uparrow,\downarrow}(\varepsilon_{1}c^{\dagger}_{1\sigma}c_{1\sigma}+\varepsilon_{2}c^{\dagger}_{2\sigma}c_{2\sigma})`$ reprezentuje energię kinetyczną na obydwu poziomach sumowaną po dwóch możliwych stanach spinowych
+- $`H_{U}=U\sum_{n=1,2}c_{n\uparrow}^{\dagger}c_{n\uparrow}c_{n\downarrow}^{\dagger}c_{n\downarrow}`$ jest energią oddziaływania cząstek o przeciwnym spinie na tym samym poziomie
+- $`H_{t}=t(\sum_{\sigma=\uparrow,\downarrow}c^{\dagger}_{1\sigma}c_{2\sigma}+h.c.)`$ jest energią związaną z przeskokami cząstek pomiędzy poziomami bez zmiany spinu
+- $`H_{S}=-\vec{S}\cdot\vec{B}`$ jest energią oddziaływania spinów z polem magnetycznym. Operator spinu zdefiniowany jest jako:
 ```math
 \vec{S}=\sum_{n=1,2}\vec{S}_{n}  
 ```
@@ -23,7 +23,7 @@ c^{\dagger}_{n\downarrow}c_{n\downarrow}+c^{\dagger}_{n\uparrow}c_{n\uparrow} \\
 \end{array}
 \right)
 ```
-- $`-J\vec{S}_{1}\cdot\vec{S}_{2}`$ jest energią oddziaływania spinów na dwóch poziomach
+- $`H_{1,2}=-J\vec{S}_{1}\cdot\vec{S}_{2}`$ jest energią oddziaływania spinów na dwóch poziomach
 
 Powyższe fermionowe operatory kreacji i anihilacji spełniają regularne reguły antykomutacji:
 ```math
@@ -36,6 +36,12 @@ Stan całkowicie obsadzony zdefiniowany jest przez:
 ```math
 | 1_{\uparrow},1_{\downarrow},1_{\uparrow},1_{\downarrow}\rangle=c_{1\uparrow}^{\dagger}c_{1\downarrow}^{\dagger}c_{2\uparrow}^{\dagger}c_{2\downarrow}^{\dagger}|0_{\uparrow},0_{\downarrow},0_{\uparrow},0_{\downarrow}\rangle
 ```
+## Symetrie Hamiltonianu
+Używając standardowych relacji antykomutacji dla operatorów kreacji i anihilacji otrzymujemy:
+```math
+[n,H_{k}]=[\sum_{n\sigma}c^{\dagger}_{n\sigma}c_{n\sigma},\sum_{n'\sigma'}\varepsilon_{n'}c^{\dagger}_{n'\sigma'}c_{n'\sigma'}]=\sum_{n\sigma}\sum_{n'\sigma'}\varepsilon_{n'}(c^{\dagger}_{n\sigma}c_{n\sigma}c^{\dagger}_{n'\sigma'}c_{n'\sigma'}-c^{\dagger}_{n'\sigma'}c_{n'\sigma'}c^{\dagger}_{n\sigma}c_{n\sigma})
+```
+
 
 ## Diagramy fazowe dla wartości średnich obserwabli
 
@@ -61,7 +67,7 @@ Przy $`t=0`$ granice fazowe są bardzo wyraźne. Na wykresie prezentującym śre
 
 Fragment diagramu, w którym obie energie cząstek znajdują się pomiędzy energią Fermiego, a energią oddziaływania $`U`$ odpowiada pojedynczym obsadzeniom dwóch poziomów. Obie cząstki posiadają spin zgodny z kierunkiem pola magnetycznego, co jest wyraźnie widoczne jako region o wartości  $`\langle S_{z}\rangle =1`$. Dla kolejne pojedyncze wzbudzenia obserwowane są przy przekroczeniu granicy sprzężenia na poszczególnych poziomach. Spin na jendym z poziomów znoszony jest w tym miejscu przez kolejne wzbudzenie, w związku z czym ponownie obserwuje się region z $`\langle S_{z}\rangle =1/2`$. Dla przypadku $`\varepsilon_{1},\varepsilon_{2}>U`$ oba poziomy zostają obsadzone cząstkami o przeciwnym spinie i $`\langle S_{z}\rangle =0`$.
 
-Z powyższego opisu wynika także, że oddziaływanie spinów obydwu cząstek zachodzi wyłącznie w przypadku gdy na dwóch poziomach znajdują się cząstki o spinie skierowanym zgodnie z polem magnetycznym. Na diagramie $`\vec{S}_{1}\cdot\vec{S}_{2}`$ sytuacja ta jest widoczna w obszarze $`0 \lt \varepsilon_{1},\varepsilon_{2} \lt U`$.
+Z powyższego opisu wynika także, że oddziaływanie spinów obydwu cząstek zachodzi wyłącznie w przypadku gdy na dwóch poziomach znajdują się cząstki o spinie skierowanym zgodnie z polem magnetycznym. Na diagramie $`\vec{S}_{1}\cdot\vec{S}_{2}`$ sytuacja ta jest widoczna w obszarze $`0 \lt \varepsilon_{1}\lt U,0\lt\varepsilon_{2} \lt U`$.
 
 #### Diagram dla $`T=0.01, U=1, t=0.1, J=0`$
 <p align="center">
@@ -72,6 +78,8 @@ Z powyższego opisu wynika także, że oddziaływanie spinów obydwu cząstek za
 <p align="center">
   <img src="https://github.com/JedrekSt/RenormalizacjaWModeluAndersona/blob/main/obrazki/Wykresyt0p2.png?raw=true"/>
 </p>
+
+W przypadku z niezerową wartością całki przeskoku $`t\neq 0`$ granice fazowe ulegają zakrzywieniu. 
 
 ### Diagramy ze sprzężeniem ferromagnetycznym
 
