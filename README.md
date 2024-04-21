@@ -135,7 +135,6 @@ Z powyższego opisu wynika także, że oddziaływanie spinów obydwu cząstek za
 Podsumowując powyższe stwierdzenia, możemy okreslić stan podstawowy układu:
 
 
-|:--:|:--:|:--:|
 |$`\varepsilon_{1}/U`$|$`\varepsilon_{2}/U`$|$`\|GS\rangle`$|
 |---|---|---|
 |$`\lt 0 `$|$`\lt 0`$|$`\|0_{\uparrow},0_{\downarrow},0_{\uparrow},0_{\downarrow}\rangle`$| 
