@@ -1,4 +1,4 @@
-# Analiza dwupoziomowego modelu Hubbarda
+# Analiza dwupoziomowego modelu Andersona
 
 ## Hamiltonian modelu
 Hamiltonian rozważanego układu można zapisać jako:
@@ -97,7 +97,7 @@ Dlatego:
 ```math
 [n,H]=0
 ```
-operatory $`H`$ oraz $`n`$ mają wspólną bazę własną, dlatego liczba cząstek jest dobrą liczbą kwantową dla tego układu. Podobnie można pokazać, że o ile $`J=0`$, to także z-towa składowa cłąkowitego spinu jest także dobrą liczbą kwantową.  
+operatory $`H`$ oraz $`n`$ mają wspólną bazę własną, dlatego liczba cząstek jest dobrą liczbą kwantową dla tego układu. Podobnie można pokazać, że o ile $`J=0`$, to także z-towa składowa całkowitego spinu jest także dobrą liczbą kwantową.  
 
 ## Diagramy fazowe dla wartości średnich obserwabli
 
@@ -114,6 +114,8 @@ Mając dany stan układu w postaci operatora gęsotści można obliczyć wartoś
 \langle A\rangle=Tr(A\rho)
 ```
 
+W niskiej temperaturze najbardziej prawdopodobny jest stan podstawowy Hamiltonianu. Czym niższa temperatura, tym wartości średnie będą odzwierciedlać dokładnie liczby kwantowe związane ze stanem podstawowym ze względu na znalezione wcześniej elementy symetrii. Bazując na powyższym stwierdzeniu, można wyznaczyć energię stanu podstawowego z diagramu fazowego zalezności wartości oczekiwanych od parametrów energii $`\varepsilon_{1},\varepsilon_{2}`$.
+
 
 Energie $`\varepsilon_{1},\varepsilon_{2}`$ mierzone są względem poziomu Fermiego. Manipulując tymi wartościami przy zadanych wartościach temperatury,pola oraz parametrów oddziaływań $`U,t,J`$ można otrzymać Hamiltonian dla różnych energii cząstek co przekłada się na zdolność do wzbudzeń.   Poniżej przedstawiono diagramy fazowe przedstawiajace wartości oczekiwane liczby cząstek $`n=\sum_{n,\sigma}c^{\dagger}_{n\sigma}c_{n\sigma}`$, kwadratu spinu $`\vec{S}^{2}`$, z-towej składowej spinu układu $`S_{z}`$ oraz sprzężenia $`\vec{S}_{1}\cdot\vec{S}_{2}`$.
 
@@ -129,6 +131,12 @@ Przy $`t=0`$ granice fazowe są bardzo wyraźne. Na wykresie prezentującym śre
 Fragment diagramu, w którym obie energie cząstek znajdują się pomiędzy energią Fermiego, a energią oddziaływania $`U`$ odpowiada pojedynczym obsadzeniom dwóch poziomów. Obie cząstki posiadają spin zgodny z kierunkiem pola magnetycznego, co jest wyraźnie widoczne jako region o wartości  $`\langle S_{z}\rangle =1`$. Dla kolejne pojedyncze wzbudzenia obserwowane są przy przekroczeniu granicy sprzężenia na poszczególnych poziomach. Spin na jendym z poziomów znoszony jest w tym miejscu przez kolejne wzbudzenie, w związku z czym ponownie obserwuje się region z $`\langle S_{z}\rangle =1/2`$. Dla przypadku $`\varepsilon_{1},\varepsilon_{2}>U`$ oba poziomy zostają obsadzone cząstkami o przeciwnym spinie i $`\langle S_{z}\rangle =0`$.
 
 Z powyższego opisu wynika także, że oddziaływanie spinów obydwu cząstek zachodzi wyłącznie w przypadku gdy na dwóch poziomach znajdują się cząstki o spinie skierowanym zgodnie z polem magnetycznym. Na diagramie $`\vec{S}_{1}\cdot\vec{S}_{2}`$ sytuacja ta jest widoczna w obszarze $`0 \lt \varepsilon_{1}\lt U,0\lt\varepsilon_{2} \lt U`$.
+
+Podsumowując powyższe stwierdzenia, otrzymujemy stan podstawowy układu:
+
+| $`\varepsilon_{1}/U`$ | $`\varepsilon_{2}/U`$ | $`|GS\rangle`$ |
+| --- | --- | --- |
+| $`\lt 0 `$ | $`\lt 0`$ |  | 
 
 #### Diagram dla $`T=0.01, U=1, t=0.1, J=0`$
 <p align="center">
