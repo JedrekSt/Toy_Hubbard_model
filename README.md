@@ -14,5 +14,5 @@ H=\sum_{\sigma=\uparrow,\downarrow}(\varepsilon_{1}c^{\dagger}_{1\sigma}c_{1\sig
 \vec{S}=\sum_{n=1,2}\vec{S}_{n}  
 ```
 ```math
-\vec{S}_{n}=\frac{\hbar}{2}\Big( c^{\dagger}_{n\downarrow}c_{n\upparow}+c^{\dagger}_{n\uparrow}c_{n\downarrow},-ic^{\dagger}_{n\downarrow}c_{n\upparow}+c^{\dagger}_{n\uparrow}c_{n\downarrow},c^{\dagger}_{n\downarrow}c_{n\downarrow}+c^{\dagger}_{n\uparrow}c_{n\uparrow} \Big)
+\vec{S}_{n}=\frac{\hbar}{2}\Big( c^{\dagger}_{n\downarrow}c_{n\uparrow}+c^{\dagger}_{n\uparrow}c_{n\downarrow},-ic^{\dagger}_{n\downarrow}c_{n\uparrow}+c^{\dagger}_{n\uparrow}c_{n\downarrow},c^{\dagger}_{n\downarrow}c_{n\downarrow}+c^{\dagger}_{n\uparrow}c_{n\uparrow} \Big)
 ```
