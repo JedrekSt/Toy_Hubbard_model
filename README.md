@@ -134,9 +134,15 @@ Z powyższego opisu wynika także, że oddziaływanie spinów obydwu cząstek za
 
 Podsumowując powyższe stwierdzenia, otrzymujemy stan podstawowy układu:
 
+|A|B|
+|---|---|
+|C|D|
+
+
 | $`\varepsilon_{1}/U`$ | $`\varepsilon_{2}/U`$ | $`|GS\rangle`$ |
 | --- | --- | --- |
 | $`\lt 0 `$ | $`\lt 0`$ |  | 
+
 
 #### Diagram dla $`T=0.01, U=1, t=0.1, J=0`$
 <p align="center">
