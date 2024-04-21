@@ -24,3 +24,13 @@ c^{\dagger}_{n\downarrow}c_{n\downarrow}+c^{\dagger}_{n\uparrow}c_{n\uparrow} \\
 \right)
 ```
 - $`-J\vec{S}_{1}\cdot\vec{S}_{2}`$ jest energią oddziaływania spinów na dwóch poziomach
+
+Powyższe fermionowe operatory kreacji i anihilacji spełniają regularne reguły antykomutacji:
+```math
+\{ c_{n\sigma}^{\dagger},c_{n',\sigma'}^{\dagger} \}=\{ c_{n\sigma,c_{n',\sigma'} \}=0
+```
+```math
+\{ c_{n\sigma},c_{n',\sigma'}^{\dagger} \}=\delta_{nn'}\delta_{kk'}
+```
+
+## Diagramy fazowe dla wartości średnich obserwabli
