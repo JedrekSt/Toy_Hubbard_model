@@ -50,9 +50,38 @@ Z=Tr[\exp(-\beta H)]
 
 Energie $`\varepsilon_{1},\varepsilon_{2}`$ mierzone są względem poziomu Fermiego. Manipulując tymi wartościami przy zadanych wartościach temperatury,pola oraz parametrów oddziaływań $`U,t,J`$ można otrzymać Hamiltonian dla różnych energii cząstek co przekłada się na zdolność do wzbudzeń.   Poniżej przedstawiono diagramy fazowe przedstawiajace wartości oczekiwane liczby cząstek $`n=\sum_{n,\sigma}c^{\dagger}_{n\sigma}c_{n\sigma}`$, kwadratu spinu $`\vec{S}^{2}`$, z-towej składowej spinu układu $`S_{z}`$ oraz sprzężenia $`\vec{S}_{1}\cdot\vec{S}_{2}`$.
 
-### Diagram dla $`T=0.01, U=1, t=0.1, J=0`$
+### Diagramy bez sprzężenia ferromagnetycznego
 
+#### Diagram dla $`T=0.01, U=1, t=0, J=0`$
 <p align="center">
-  <img id='diagram1' src="https://github.com/JedrekSt/RenormalizacjaWModeluAndersona/blob/main/WykresyWygenerowane.png?raw=true" />
+  <img src="https://github.com/JedrekSt/RenormalizacjaWModeluAndersona/blob/main/obrazki/WykresyT0.png?raw=true"/>
 </p>
+
+#### Diagram dla $`T=0.01, U=1, t=0.1, J=0`$
+<p align="center">
+  <img src="https://github.com/JedrekSt/RenormalizacjaWModeluAndersona/blob/main/obrazki/WykresyWygenerowane.png?raw=true"/>
+</p>
+
+#### Diagram dla $`T=0.01, U=1, t=0.2, J=0`$
+<p align="center">
+  <img src="https://github.com/JedrekSt/RenormalizacjaWModeluAndersona/blob/main/obrazki/Wykresyt0p2.png?raw=true"/>
+</p>
+
+### Diagramy ze sprzężeniem ferromagnetycznym
+
+#### Diagram dla $`T=0.01, U=1, t=0.1, J=-0.02`$
+<p align="center">
+  <img src="https://github.com/JedrekSt/RenormalizacjaWModeluAndersona/blob/main/obrazki/Wykresyt0p1J0p02.png?raw=true"/>
+</p>
+
+#### Diagram dla $`T=0.01, U=1, t=0.1, J=-0.04`$
+<p align="center">
+  <img src="https://github.com/JedrekSt/RenormalizacjaWModeluAndersona/blob/main/obrazki/Wykresyt0p1J0p04.png?raw=true"/>
+</p>
+
+#### Diagram dla $`T=0.01, U=1, t=0.1, J=-0.05`$
+<p align="center">
+  <img src="https://github.com/JedrekSt/RenormalizacjaWModeluAndersona/blob/main/obrazki/Wykresyt0p1J0p05.png?raw=true"/>
+</p>
+
 
