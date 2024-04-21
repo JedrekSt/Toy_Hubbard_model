@@ -38,3 +38,14 @@ Stan całkowicie obsadzony zdefiniowany jest przez:
 ```
 
 ## Diagramy fazowe dla wartości średnich obserwabli
+
+Przedmiotem dalszych rozważań będzie stan termalny układu opisany operatorem gęstości
+```math
+\rho=\frac{1}{Z}\exp(-\beta H)
+```
+$`Z`$ jest sumą statystyczną:
+```math
+Z=Tr[\exp(-\beta H)]
+```
+
+Energie $`\varepsilon_{1},\varepsilon_{2}`$ mierzone są względem poziomu Fermiego. Manipulując tymi wartościami przy zadanych wartościach temperatury,pola oraz parametrów oddziaływań $`U,t,J`$ można otrzymać Hamiltonian dla różnych energii cząstek co przekłada się na zdolność do wzbudzeń.   
