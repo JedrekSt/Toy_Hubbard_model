@@ -32,5 +32,9 @@ Powyższe fermionowe operatory kreacji i anihilacji spełniają regularne reguł
 ```math
 \{ c_{n\sigma},c_{n',\sigma'}^{\dagger} \}=\delta_{nn'}\delta_{kk'}
 ```
+Poziom całkowicie obsadzony zdefiniowany jest przez:
+```math
+| 1_{\uparrow},1_{\downarrow},1_{\uparrow},1_{\downarrow}\rangle=c_{1\uparrow}^{\dagger}c_{1\downarrow}^{\dagger}c_{2\uparrow}^{\dagger}c_{2\downarrow}^{\dagger}|0_{\uparrow},0_{\downarrow},0_{\uparrow},0_{\downarrow}\rangle
+```
 
 ## Diagramy fazowe dla wartości średnich obserwabli
