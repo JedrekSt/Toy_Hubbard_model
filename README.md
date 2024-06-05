@@ -158,7 +158,7 @@ Podsumowując powyższe stwierdzenia, możemy okreslić stan podstawowy układu:
   <img src="https://github.com/JedrekSt/RenormalizacjaWModeluAndersona/blob/main/obrazki/Wykresyt0p2.png?raw=true"/>
 </p>
 
-W przypadku z niezerową wartością całki przeskoku $`t\neq 0`$ granice fazowe ulegają zakrzywieniu. diagramy dla średniej liczby cząstek wyglądają podobnie do tych, otrzymanych dla $`t= 0`$. Jednak największa różnica dostrzegalna jest, dla diagramów średnich spinowych. Po przekroczeniu granicznej wartości $`t`$ w układzie pojawia się sprzężenie antyferromagnetyczne. Cząstki na różnych poziomach ustawiają się z przeciwnym spinem co można zauważyć na diagramie $`\vec{S}_{1}\cdot\vec{S}_{2}`$ oraz $`{S}_{z}`$ gdzie średnia z-towej składowej wynosi 0, dla 2 cząstek.
+W przypadku z niezerową wartością całki przeskoku $`t\neq 0`$ granice fazowe ulegają zakrzywieniu. diagramy dla średniej liczby cząstek wyglądają podobnie do tych, otrzymanych dla $`t= 0`$. Jednak największa różnica dostrzegalna jest, dla diagramów średnich spinowych. Po przekroczeniu granicznej wartości $`t`$ w układzie pojawia się sprzężenie antyferromagnetyczne. Cząstki na różnych poziomach ustawiają się z przeciwnym spinem co można zauważyć na diagramie $`\vec{S}_{1}\cdot\vec{S}_{2}`$ oraz $`{S}_{z}`$ gdzie średnia z-towej składowej wynosi 0, dla 2 cząstek. Za opisaną sytuacje odpowiada człon z całką przeskoku, który wprowadza oddziaływanie między poziomami. 
 
 ### Diagramy ze sprzężeniem ferromagnetycznym
 
@@ -172,7 +172,7 @@ W przypadku z niezerową wartością całki przeskoku $`t\neq 0`$ granice fazowe
   <img src="https://github.com/JedrekSt/RenormalizacjaWModeluAndersona/blob/main/obrazki/Wykresyt0p1J0p04.png?raw=true"/>
 </p>
 
-#### Diagram dla $`T=0.01, U=1, t=0.1, J=-0.05`$
+#### Diagram dla $`T=0.01, U=1, t=0.2, J=-0.04`$
 <p align="center">
   <img src="https://github.com/JedrekSt/RenormalizacjaWModeluAndersona/blob/main/obrazki/Wykresyt0p1J0p05.png?raw=true"/>
 </p>
