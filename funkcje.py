@@ -17,6 +17,9 @@ class operators:
     @staticmethod
     def anti_com(A,B):
         return np.dot(A,B)+np.dot(B,A)
+    @staticmethod
+    def com(A,B):
+        return np.dot(A,B)-np.dot(B,A)
 
 class Hamiltonian:
     def __init__(self,N):
@@ -24,9 +27,9 @@ class Hamiltonian:
         self.cup=[self.c[item] for item in range(0,len(self.c)) if item%2==0]
         self.cdw=[self.c[item] for item in range(0,len(self.c)) if item%2!=0]
         self.sc=[{
-            'x' : np.dot(self.cup[i]['cr'],self.cdw[i]['an'])+np.dot(self.cdw[i]['cr'],self.cup[i]['an']),
-            'y' : -1j*(np.dot(self.cup[i]['cr'],self.cdw[i]['an'])-np.dot(self.cdw[i]['cr'],self.cup[i]['an'])),
-            'z' : np.dot(self.cup[i]['cr'],self.cup[i]['an'])-np.dot(self.cdw[i]['cr'],self.cdw[i]['an'])
+            'x' : (np.dot(self.cup[i]['cr'],self.cdw[i]['an'])+np.dot(self.cdw[i]['cr'],self.cup[i]['an']))/2,
+            'y' : -1j*(np.dot(self.cup[i]['cr'],self.cdw[i]['an'])-np.dot(self.cdw[i]['cr'],self.cup[i]['an']))/2,
+            'z' : (np.dot(self.cup[i]['cr'],self.cup[i]['an'])-np.dot(self.cdw[i]['cr'],self.cdw[i]['an']))/2
             }
             for i in range(len(self.cup))]
         self.S={
