@@ -3,7 +3,6 @@ from matplotlib import pyplot as plt
 import numpy as np
 import scipy
 
-#Stworzenie klasy służącej do generowania Hamiltonianów
 Ham=Hamiltonian(4) 
 
 #definiiowanie parametrów układu
