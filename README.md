@@ -176,10 +176,11 @@ W przypadku z niezerową wartością całki przeskoku $`t\neq 0`$ granice fazowe
 <p align="center">
   <img src="https://github.com/JedrekSt/RenormalizacjaWModeluAndersona/blob/main/obrazki/DuzeJ.png?raw=true"/>
 </p>
+w przypadku ze sprzężeniem ferromagnetycznym można zaobserwować utowrzenie się singletu przy zwiększeniu wartości oddziaływania ferromagnetycznego między spinami na różnych poziomach. Przejście zachodzi przy ustalonej wartości całki przeskoku $`t=0.01`$.  
 
 #### Diagram dla $`T=0.01, U=1, t=0.2, J=-0.04`$
 <p align="center">
   <img src="https://github.com/JedrekSt/RenormalizacjaWModeluAndersona/blob/main/obrazki/Wykresyt0p1J0p05.png?raw=true"/>
 </p>
 
-
+Podobnie jak w przypadku bez sprzężenia ferromagnetycznego, podniesienie wartości całki przeskoku również prowadzi do otrzymanaia stanu singletowego, co można zaobserwowac na powyższym diagramie.
