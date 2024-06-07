@@ -6,7 +6,7 @@ import scipy
 Ham=Hamiltonian(4) 
 
 #definiiowanie parametrów układu
-U,t,B,J=1,0.2,[0,0,0.1],-0.04
+U,t,B,J=1,0.1,[0,0,0.1],-0.09
 Tem=1e-2
 eps1=np.arange(-1.5,1.5,0.025)
 eps2=np.arange(-1.5,1.5,0.025)
