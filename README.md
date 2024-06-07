@@ -172,6 +172,11 @@ W przypadku z niezerową wartością całki przeskoku $`t\neq 0`$ granice fazowe
   <img src="https://github.com/JedrekSt/RenormalizacjaWModeluAndersona/blob/main/obrazki/Wykresyt0p1J0p04.png?raw=true"/>
 </p>
 
+#### Diagram dla $`T=0.01, U=1, t=0.1, J=-0.09`$
+<p align="center">
+  <img src="https://github.com/JedrekSt/RenormalizacjaWModeluAndersona/blob/main/obrazki/DuzeJ.png?raw=true"/>
+</p>
+
 #### Diagram dla $`T=0.01, U=1, t=0.2, J=-0.04`$
 <p align="center">
   <img src="https://github.com/JedrekSt/RenormalizacjaWModeluAndersona/blob/main/obrazki/Wykresyt0p1J0p05.png?raw=true"/>
