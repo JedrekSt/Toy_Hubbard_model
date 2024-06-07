@@ -1,4 +1,4 @@
-# Analiza dwupoziomowego modelu Andersona
+# Analiza modelu z dwoma orbitalnymi poziomami
 
 ## Hamiltonian modelu
 Hamiltonian rozważanego układu można zapisać jako:
