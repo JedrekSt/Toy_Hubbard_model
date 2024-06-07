@@ -158,7 +158,7 @@ Podsumowując powyższe stwierdzenia, możemy okreslić stan podstawowy układu:
   <img src="https://github.com/JedrekSt/RenormalizacjaWModeluAndersona/blob/main/obrazki/Wykresyt0p2.png?raw=true"/>
 </p>
 
-W przypadku z niezerową wartością całki przeskoku $`t\neq 0`$ granice fazowe ulegają zakrzywieniu. diagramy dla średniej liczby cząstek wyglądają podobnie do tych, otrzymanych dla $`t= 0`$. Jednak największa różnica dostrzegalna jest, dla diagramów średnich spinowych. Po przekroczeniu granicznej wartości $`t`$ cząstki na różnych poziomach ustawiają się z przeciwnym spinem co można zauważyć na diagramie $`\vec{S}_{1}\cdot\vec{S}_{2}`$ oraz $`{S}_{z}`$ gdzie średnia z-towej składowej wynosi 0, dla 2 cząstek. Za opisaną sytuacje odpowiada człon z całką przeskoku, który wprowadza oddziaływanie między poziomami. W tym wypadku efektywne pole, w którym znajduje się spin zostaje osłabione przez oddziaływanie międzypoziomowe związane z przeskokami i spiny ustawiaja się przeciwnie. W rejonie $`-1\lt \varepsilon_{1}/U\lt 0 `$ $`-1\lt\varepsilon_{2}/U\lt 0`$ można zaobserować osiągnięcie wartości $`\langle \vec{S}_{1}\cdot\vec{S}_{2}\rangle=-0.625`$ charakteryzującej stan singletowy $`\|1_{\uparrow},0_{\downarrow},0_{\uparrow},1_{\downarrow}\rangle`$, w odórznieniu do wartości $0.25$ dla tripletów.
+W przypadku z niezerową wartością całki przeskoku $`t\neq 0`$ granice fazowe ulegają zakrzywieniu. diagramy dla średniej liczby cząstek wyglądają podobnie do tych, otrzymanych dla $`t= 0`$. Jednak największa różnica dostrzegalna jest, dla diagramów średnich spinowych. Po przekroczeniu granicznej wartości $`t`$ cząstki na różnych poziomach ustawiają się z przeciwnym spinem co można zauważyć na diagramie $`\vec{S}_{1}\cdot\vec{S}_{2}`$ oraz $`{S}_{z}`$ gdzie średnia z-towej składowej wynosi 0, dla 2 cząstek. Za opisaną sytuacje odpowiada człon z całką przeskoku, który wprowadza oddziaływanie między poziomami. W tym wypadku efektywne pole, w którym znajduje się spin zostaje osłabione przez oddziaływanie międzypoziomowe związane z przeskokami i spiny ustawiaja się przeciwnie. W rejonie $`-1\lt \varepsilon_{1}/U\lt 0 `$ $`-1\lt\varepsilon_{2}/U\lt 0`$ można zaobserować osiągnięcie wartości $`\langle \vec{S}_{1}\cdot\vec{S}_{2}\rangle=-0.625`$ charakteryzującej stan singletowy $`|1_{\uparrow},0_{\downarrow},0_{\uparrow},1_{\downarrow}\rangle`$, w odórznieniu do wartości $0.25$ dla tripletów.
 
 ### Diagramy ze sprzężeniem ferromagnetycznym
 
@@ -184,3 +184,7 @@ w przypadku ze sprzężeniem ferromagnetycznym można zaobserwować utowrzenie s
 </p>
 
 Podobnie jak w przypadku bez sprzężenia ferromagnetycznego, podniesienie wartości całki przeskoku również prowadzi do otrzymanaia stanu singletowego, co można zaobserwowac na powyższym diagramie.
+
+### Podsumowanie
+
+Przeanalizowano model złożony z dwóch poziomów orbitalnych dla fermionów o spinie $`1/2`$. Uzyskano diagramy fazowe dla różnych wartości parametrów charakteryzujących układ, zarówno z jak i bez uwzględnienia oddziaływania ferromagnetycznego. Na podstawie uzyskanych diagramów zindentyfikowano stan podstawowwy układu w zależności od dobranych parametrów, wskazując miejsca, w których powstawały tryplety jak i singlety. 
